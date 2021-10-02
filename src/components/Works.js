@@ -76,10 +76,16 @@ const Works = () => {
                 </div>
               </div>
               <div className="works-single2">
-                <div className="works-box">
-                  <img className="workimg hvr-shrink" src={Pms} alt="pms" />
-                  <img className="workimg-m" src={Pmssm} alt="pms" />
-                </div>
+                <a
+                  href="https://ayoniyipms.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="works-box">
+                    <img className="workimg hvr-shrink" src={Pms} alt="pms" />
+                    <img className="workimg-m" src={Pmssm} alt="pms" />
+                  </div>
+                </a>
                 <div className="works-bottom">
                   <p>FIGMA, REACTJS, NODEJS, EXPRESS, MONGOOSE</p>
                 </div>
