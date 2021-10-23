@@ -84,7 +84,7 @@ const Hero = () => {
                   scale: 1,
                   transition: {
                     type: 'spring',
-                    delay: 1.3,
+                    delay: 0.2,
                     duration: 2,
                   },
                 },
@@ -121,11 +121,10 @@ const Hero = () => {
                           0,
                         ],
                         transition: {
-                          //repeat: Infinity,
+                          repeat: Infinity,
                           type: 'spring',
                           delay: 0.2,
                           duration: 4,
-                          //repeat: Infinity,
                         },
                       },
                     }}
@@ -169,7 +168,7 @@ const Hero = () => {
                   x: 0,
                   transition: {
                     type: 'spring',
-                    delay: 0.2,
+                    delay: 1.3,
                     duration: 2,
                   },
                 },

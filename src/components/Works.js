@@ -39,8 +39,8 @@ const Works = () => {
         toggleActions: 'play none none reverse',
       },
       opacity: 0,
-      scale: 0.2,
-      duration: 3.8,
+      scale: 1.7,
+      duration: 0.8,
     })
   })
 

@@ -1,15 +1,30 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
+import { gsap } from 'gsap'
 
 //css
 import '../styles/About.css'
 
 //assets
-import Emoji from '../assets/svg/about/emoji1.svg'
+import emoji from '../assets/svg/about/emoji1.svg'
 import Zen from '../assets/zen2.gif'
 
 import Footer from './Footer'
 
 const About = () => {
+  useEffect(() => {
+    gsap.from(emoji2, {
+      scrollTrigger: {
+        trigger: emoji2,
+        start: 'top center+=100',
+        toggleActions: 'play none none reverse',
+      },
+      opacity: 0,
+      scale: 1.7,
+      duration: 1.8,
+    })
+  }, [])
+
+  let emoji2 = useRef(' ')
   return (
     <>
       <section className="about">
@@ -17,7 +32,13 @@ const About = () => {
           <div className="about-content">
             <div className="section-top2">
               <h1 className="sm-Titles2">About me</h1>
-              <img src={Emoji} alt="yo" />
+              <img
+                src={emoji}
+                alt="yo"
+                ref={(el) => {
+                  emoji2 = el
+                }}
+              />
             </div>
             <div className="about-body">
               <div className="about-left">

@@ -18,11 +18,30 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="header-container">
-          <div className="header-content">
+        <motion.div className="header-container">
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: {
+                opacity: 0,
+                y: -150,
+              },
+              visible: {
+                opacity: 1,
+                y: 0,
+                transition: {
+                  type: 'spring',
+                  delay: 1.5,
+                  duration: 2,
+                },
+              },
+            }}
+            className="header-content"
+          >
             <div className="nav-left">
               <Link to="/">
-                <img src={Logo} alt="logo" />
+                <img src={Logo} alt="logo" className="logo-main" />
               </Link>
             </div>
             <nav className="nav-right">
@@ -252,8 +271,8 @@ const Header = () => {
 
               {/* mobile nav */}
             </nav>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </header>
     </>
   )

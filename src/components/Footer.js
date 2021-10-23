@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 import '../styles/Footer.css'
 
@@ -21,7 +22,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="footer-box2">
-              <img src={Logo} alt="logo" />
+              <img src={Logo} alt="logo" className="logo-main2" />
               <a href="mailto:ayo.a.niyi@gmail.com">
                 <div className="footer-mailBtn">
                   <img src={Mail} alt="mail" />
@@ -31,7 +32,28 @@ const Footer = () => {
             </div>
             <div className="footer-box3">
               <div className="footer-emoji">
-                <img src={Emojji} alt="emoji" />
+                <motion.img
+                  initial="hidden"
+                  animate="visible"
+                  variants={{
+                    hidden: {
+                      //rotate: 15,
+                      //scale: 2,
+                    },
+                    visible: {
+                      scale: 1,
+                      rotate: [0, 10, -5, 10, -5, 10, -5, 10, -5, 0],
+                      transition: {
+                        repeat: Infinity,
+                        type: 'spring',
+                        delay: 0.2,
+                        duration: 4,
+                      },
+                    },
+                  }}
+                  src={Emojji}
+                  alt="emoji"
+                />
               </div>
               <div className="footer-links">
                 <a

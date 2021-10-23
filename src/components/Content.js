@@ -1,6 +1,8 @@
 import React from 'react'
 
 // components
+
+//import Intro from './Intro'
 import Header from './Header'
 import Hero from './Hero'
 import Works from './Works'
