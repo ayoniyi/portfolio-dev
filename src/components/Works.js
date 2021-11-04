@@ -64,7 +64,12 @@ const Works = () => {
           <div className="works-container">
             <div className="works-rows">
               <div className="works-single">
-                <a href="https://jupita.co/" target="_blank" rel="noreferrer">
+                {/* <a href="https://jupita.co/" target="_blank" rel="noreferrer"> */}
+                <a
+                  href="https://jupita2-0.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <div className="works-box">
                     <img className="workimg hvr-shrink" src={Jp} alt="jupita" />
                     {/* <div className="workimg"></div> */}
