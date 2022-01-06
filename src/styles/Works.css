@@ -36,8 +36,11 @@
   /* height: 330px; */
   border-radius: 35px;
   cursor: pointer;
-  margin-bottom: 1em;
+  margin-bottom: 1.7em;
   /* background: rgb(228, 134, 134); */
+}
+.m-b2 {
+  margin-bottom: 2em;
 }
 .workimg-m {
   display: none;

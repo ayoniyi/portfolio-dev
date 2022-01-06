@@ -54,9 +54,9 @@ const About = () => {
                 <div className="about-textbox">
                   <h2>Core tech / Skills</h2>
                   <p>
-                    HTML/CSS/SASS, Javascript [ES6], Reactjs, Nextjs,
-                    Redux/Redux toolkit, Framer motion, GSAP, Firebase, FIGMA,
-                    Wordpress, PHP, MySQL.
+                    HTML/CSS/SASS, Javascript [ES6], TypeScript, Reactjs,
+                    Nextjs, Redux/Redux toolkit, Framer motion, GSAP, Firebase,
+                    FIGMA, Wordpress, PHP, MySQL.
                   </p>
                 </div>
                 <div className="about-textbox">

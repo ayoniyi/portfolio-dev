@@ -24,7 +24,7 @@ import Tm from '../assets/svg/works/tm.svg'
 import Tmsm from '../assets/svg/works/tmsm.svg'
 //import Distort from '../assets/14.jpg'
 
-const Works = () => {
+const WorksOld = () => {
   useEffect(() => {
     //   const image_animate = new hoverEffect({
     //     parent: document.querySelector('.workimg'),
@@ -66,25 +66,6 @@ const Works = () => {
           <div className="works-container">
             <div className="works-rows">
               <div className="works-single">
-                <a
-                  href="https://twirra-mini.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="works-box">
-                    <img
-                      className="workimg m-b2 hvr-shrink"
-                      src={Tm}
-                      alt="tm"
-                    />
-                    <img className="workimg-m" src={Tmsm} alt="pms" />
-                  </div>
-                </a>
-                <div className="works-bottom">
-                  <p>REACTJS, NODEJS, EXPRESS, MONGOOSE</p>
-                </div>
-              </div>
-              <div className="works-single2">
                 <a href="https://jupita.co/" target="_blank" rel="noreferrer">
                   {/* <a
                   href="https://jupita2-0.vercel.app/"
@@ -101,10 +82,7 @@ const Works = () => {
                   <p>NEXTJS, FRAMER MOTION, GSAP</p>
                 </div>
               </div>
-            </div>
-
-            <div className="works-rows">
-              <div className="works-single">
+              <div className="works-single2">
                 <a
                   href="https://a-pms.netlify.app/"
                   target="_blank"
@@ -119,7 +97,10 @@ const Works = () => {
                   <p>FIGMA, REACTJS, NODEJS, EXPRESS, MONGOOSE</p>
                 </div>
               </div>
-              <div className="works-single2">
+            </div>
+
+            <div className="works-rows">
+              <div className="works-single">
                 <a
                   href="https://ricknmortydata.netlify.app/"
                   target="_blank"
@@ -134,10 +115,7 @@ const Works = () => {
                   <p>REACTJS, FRAMER MOTION</p>
                 </div>
               </div>
-            </div>
-
-            <div className="works-rows">
-              <div className="works-single">
+              <div className="works-single2">
                 <a
                   href="https://buhari-jemilu.com/"
                   target="_blank"
@@ -152,7 +130,10 @@ const Works = () => {
                   <p>REACTJS, FRAMER MOTION</p>
                 </div>
               </div>
-              <div className="works-single2">
+            </div>
+
+            <div className="works-rows">
+              <div className="works-single">
                 <a
                   href="https://mendesuya.com/"
                   target="_blank"
@@ -194,4 +175,4 @@ const Works = () => {
   )
 }
 
-export default Works
+export default WorksOld
