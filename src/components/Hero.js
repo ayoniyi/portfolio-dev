@@ -9,8 +9,8 @@ import Git from '../assets/svg/icons/git.svg'
 import In from '../assets/svg/icons/in.svg'
 import Twitter from '../assets/svg/icons/twitter.svg'
 
-import HeroImg from '../assets/svg/heroimg.svg'
-import HeroImgM from '../assets/svg/hero-m.svg'
+import HeroImg from '../assets/svg/heroimg2.svg'
+import HeroImgM from '../assets/svg/hero-m2.svg'
 import Mail from '../assets/svg/cmail.svg'
 import Ayo from '../assets/svg/icons/ayo.svg'
 import Wave from '../assets/svg/icons/wave.svg'
@@ -135,7 +135,7 @@ const Hero = () => {
                 </div>
                 <div className="hero-body">
                   <p>
-                    I’m a front end developer. I convert abstractions and models
+                    I’m a front-end developer. I convert abstractions and models
                     to real life products for the web.
                   </p>
                 </div>

@@ -44,27 +44,23 @@ const About = () => {
               <div className="about-left">
                 <div className="about-textbox">
                   <p>
-                    I'm Ayo Niyi, a design oriented Front End Developer and
-                    UI/UX Enthusiast. I like to think I create more than
-                    front-end interfaces but digital experiences that
-                    communicate ideas, brands etc.
+                    I'm Ayo Niyi, a design oriented Front-End Developer with a
+                    passion for creativity and innovation. I like to think I
+                    create more than front-end interfaces but digital
+                    experiences that communicate ideas, brands etc.
                   </p>
-                  <p>I’m good at what I do because I love what I do.</p>
                 </div>
                 <div className="about-textbox">
                   <h2>Core tech / Skills</h2>
                   <p>
                     HTML/CSS/SASS, Javascript [ES6], TypeScript, Reactjs,
-                    Nextjs, Redux/Redux toolkit, Framer motion, GSAP, Firebase,
-                    FIGMA, Wordpress, PHP, MySQL.
+                    Nextjs, Redux/Redux toolkit, Nodejs, Express, Mongoose,
+                    Framer motion, GSAP, Firebase, FIGMA, Wordpress, PHP, MySQL.
                   </p>
                 </div>
                 <div className="about-textbox">
                   <h2>Familiar with</h2>
-                  <p>
-                    React Native, Vuejs, Nuxtjs, Nodejs, Express, Mongoose,
-                    Socket.io, WebRTC.
-                  </p>
+                  <p>React Native, Vuejs, Nuxtjs, Socket.io, WebRTC.</p>
                 </div>
               </div>
               <div className="about-right">

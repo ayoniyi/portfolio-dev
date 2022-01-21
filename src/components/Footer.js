@@ -19,6 +19,7 @@ const Footer = () => {
                 <p className="footer-text hvr-underline-from-left2">
                   Email: ayo.a.niyi@gmail.com
                 </p>
+                \
               </a>
             </div>
             <div className="footer-box2">
@@ -56,6 +57,12 @@ const Footer = () => {
                 />
               </div>
               <div className="footer-links">
+                <a
+                  href="https://drive.google.com/file/d/1nwO6kiq8qa8W_8Qn5R5rE3Hj1klfhaGQ/view?usp=sharing"
+                  rel="noreferrer"
+                >
+                  <p>resume</p>
+                </a>
                 <a
                   href="https://www.linkedin.com/in/ayo-niyi-a009b8166/"
                   target="_blank"

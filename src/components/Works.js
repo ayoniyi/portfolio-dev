@@ -53,7 +53,7 @@ const Works = () => {
       <section className="works">
         <div id="works" className="works-content">
           <div className="section-top">
-            <h1 className="sm-Titles">Stuff i've done.</h1>
+            <h1 className="sm-Titles">Some stuff i've done.</h1>
             <img
               ref={(el) => {
                 emoji = el
